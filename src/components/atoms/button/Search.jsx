@@ -7,6 +7,7 @@ function Search() {
     <>
       <form className="search" action="" autoComplete="on">
         <input
+          className="lg:w-4000 md:w-64 sm:w-32 w-72 p-2 rounded-box border-2 border-base-200 focus:border-primary focus:ring-2 focus:ring-primary focus:outline-none transition duration-200 ease-in-out"
           id="search"
           name="search"
           type="text"
