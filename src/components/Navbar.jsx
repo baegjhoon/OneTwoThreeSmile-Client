@@ -1,32 +1,31 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Menu } from 'antd';
-
-import Logo from './atoms/Logo';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <React.Fragment>
-        <Menu
-            mode='horizontal'
-            theme='light'
-            className='app-header'
-        >
-            <Menu.Item key="/main" className='logo'>
-                <Logo />
-            </Menu.Item>
-            <React.Fragment>
-                <Menu.Item>
-                    <Link to=''>상점</Link>
-                    <Link to=''>갤러리</Link>
-                </Menu.Item>
-            </React.Fragment>
-            <React.Fragment>
-                <Menu.Item>
-                    <Link to=''>로그인/회원가입</Link>
-                </Menu.Item>
-            </React.Fragment>
-        </Menu>
+      <div className="navbar bg-base-100">
+        <div className="navbar-start">
+          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        </div>
+        <div className="navbar-center">
+          <ul className="menu menu-horizontal px-1">
+            <li>
+              <Link to="">쇼핑</Link>
+            </li>
+            <li>
+              <Link to="">갤러리</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="navbar-end">
+          <ul className="menu menu-horizontal px-1">
+            <li>
+              <Link to="">회원가입/로그인</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </React.Fragment>
   );
 }
