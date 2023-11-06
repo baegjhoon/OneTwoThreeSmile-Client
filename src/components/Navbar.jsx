@@ -6,7 +6,7 @@ function Navbar() {
     <React.Fragment>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <Link to="" className="btn btn-ghost normal-case text-xl">하나 둘 셋, 스마일</Link>
         </div>
         <div className="navbar-center">
           <ul className="menu menu-horizontal px-1">
