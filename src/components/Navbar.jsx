@@ -21,7 +21,7 @@ function Navbar() {
         <div className="navbar-end">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link to="">회원가입/로그인</Link>
+              <Link to="">로그인/회원가입</Link>
             </li>
           </ul>
         </div>
