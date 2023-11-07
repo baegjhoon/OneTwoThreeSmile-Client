@@ -1,5 +1,5 @@
 ---
-name: Feature request
+name: "✨ Feature"
 about: Suggest an idea for this project
 title: "[Feat] "
 labels: ''
@@ -11,6 +11,6 @@ assignees: baegjhoon
 
 
 ## To do
-[] 
+- [ ] 할 일
 
 ## References
