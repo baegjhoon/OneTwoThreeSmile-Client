@@ -1,0 +1,27 @@
+.keyword-filter {
+    display: flex;
+    width: auto;
+    max-width: fit-content;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    padding: 0 10px;
+    margin: 0 0 10px 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        border: solid 1px #333333;
+    }
+}
+.keyword-filter span {
+    white-space: nowrap;
+}
