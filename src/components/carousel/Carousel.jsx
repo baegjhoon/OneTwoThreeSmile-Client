@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import "../styles/css/components/Carousel/Carousel.css";
+import "../../styles/css/components/carousel/Carousel.css";
 
 // 임시 이미지 데이터
 const slides = [
